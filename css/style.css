@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: #0b132a;
+  outline: 1px rebeccapurple solid;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 1rem 2rem 4rem;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.logo {
+  width: 2rem;
+}
+.logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.site-navigation {
+  height: 2.8125rem;
+  margin-bottom: 5.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-through-site menu {
+  display: none;
+}
+
+.show-links {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.show-links input {
+  display: none;
+}
+.show-links span {
+  display: block;
+  width: 2rem;
+  height: 0.5rem;
+  background-color: #f53855;
+  border-radius: 1rem;
+}
+
+.login-section {
+  display: flex;
+  gap: 30px;
+}
+.login-section a {
+  display: grid;
+  place-content: center;
+}
+
+.sign-in-link {
+  color: #4f5665;
+}
+.sign-in-link span {
+  color: inherit;
+  font-weight: 500;
+}
+
+.sign-up-link {
+  height: 2.8125rem;
+  width: 9.375rem;
+  color: #f53855;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+}
+.sign-up-link span {
+  color: inherit;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 3rem 9rem 6.25rem;
+  }
+  .links-through-site menu {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .show-links {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
