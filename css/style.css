@@ -319,7 +319,7 @@ a {
 }
 
 .primary-card {
-  border-color: #f53855;
+  border-color: #f53855 !importent;
 }
 
 .geo-info {
